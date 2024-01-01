@@ -1,0 +1,21 @@
+nav,ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conten-logo{
+    margin-left: 20px;
+    width: 40%;
+}
+li{
+    list-style: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: rgb(18, 104, 235);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
