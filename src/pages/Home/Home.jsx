@@ -1,10 +1,7 @@
 import React from "react";
 import NavBar from "../../components/NavBar";
-
 import { Player } from "@lottiefiles/react-lottie-player";
-
 import "./Home.css";
-
 function Home() {
   return (
     <>
