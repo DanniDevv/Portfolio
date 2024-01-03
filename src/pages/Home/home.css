@@ -1,67 +1,103 @@
-.home-intro{
-    width: auto;
-}
-.home-content {
-    margin-left: 4%;
-    align-items: center;
-    color: white;
-    background: rgb(9, 127, 206);    
-    border-radius: 12px;
-    font-weight: 700;
-    letter-spacing: .05em;
-    text-transform: capitalize;
-    width: 195px;
-}
-.home-container {
+
+/* Default styles for all screen sizes */
+.home-content-general {
     display: flex;
-}
-.home-content-primary{
-    display: flex;
-    margin-left: 4%;
-    font-size: 2.6rem;
-    font-weight: 700;
+    justify-content: center;
     align-items: center;
-}
-span{
-    color: rgba(2, 84, 235, 0.877);
-    font-style: italic;
-    animation: colorChange 4s infinite; 
-}
-@keyframes colorChange {
-    0% {
-        color: red;
-    }
-
-    25% {
-        color: rgb(0, 86, 245);
-    }
-
-    50% {
-        color: green;
-    }
-
-    75% {
-        color: orange;
-    }
-
-    100% {
-        color: red;
-    }
-}
-.home-icon {
     width: 100%;
+    height: 700px;
 }
-@media screen and (max-width: 1000px) {
-    .home-container {
+
+.home-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home-title:hover {
+    color: white;
+}
+
+.home-info {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.home-contacme,
+.contact {
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.contact-social {
+    font-size: 4rem;
+}
+/* responsive */
+@media only screen and (max-width: 1000px) {
+    .home-content-general {
+        height: auto;
         flex-direction: column;
+    }
+
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-info {
+        font-size: 2rem;
+    }
+
+    .contact-social {
+        font-size: 3rem;
+    }
+    .home-svg {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home-title {
+        font-size: 1.5rem;
+    }
+
+    .home-info {
+        font-size: 1.2rem;
+    }
+
+    .contact-social {
+        font-size: 2rem;
+    }
+    .home-svg {
+        width: 10%;
         align-items: center;
+        justify-content: center;
     }
-    .home-content-primary {
-        margin-left: 0;
-        text-align: center;
-        font-size: 2.1rem;
-    }
-    .home-icon {
-        width: 70%;
-    }
+}
+/* Icos */
+.contact-facebook:hover {
+    color: #0866ff;
+}
+
+.contact-instagram:hover {
+    color: #fd1d1d;
+}
+
+.contact-linkedin:hover {
+    color: #0a66c2;
+}
+
+.contact-github:hover {
+    color: black;
+}
+
+.contact-gmail:hover {
+    color: #BB001B;
+}
+
+/* SVG  */
+.home-svg {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }

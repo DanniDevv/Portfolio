@@ -15,6 +15,6 @@ npm install @mui/material @emotion/react @emotion/styled react-circular-progress
 ```
 npm install framer-motion
 ```
-
-
-https://developerfolio.js.org/#experience
+```
+npm install react-type-animation
+```

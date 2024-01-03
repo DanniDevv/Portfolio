@@ -1,8 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import NavBar from "../../components/NavBar";
-import Footer from "../../components/Footer";
 import "./proyects.css";
 import best_movie from "../../assets/img/img-proyects/best_movie.png";
 import biblioteca from "../../assets/img/img-proyects/biblioteca.png";
@@ -59,7 +57,6 @@ const projectsData = [
 function Proyects() {
   return (
     <>
-      <NavBar />
       <div>
         <div className="project-title">
           <h1 className="pro-title">Proyectos</h1>
@@ -99,7 +96,6 @@ function Proyects() {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 }

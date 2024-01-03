@@ -21,15 +21,12 @@ import {
 import { DiDjango } from "react-icons/di";
 import { TbBrandVscode } from "react-icons/tb";
 import { GrAndroid } from "react-icons/gr";
-import NavBar from "../../components/NavBar";
-import Footer from "../../components/Footer";
 import SkillBar from "../../components/ProgresBar/SkillBar";
 import tecsup from "../../assets/img/img-about/tecsup.png";
 import "./about.css";
 function About() {
   return (
     <>
-      <NavBar />
       <div className="skills-container">
         <div className="skills-content">
           <div className="skills-icon">
@@ -236,8 +233,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

@@ -1,17 +1,22 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
 export const NavBar = () => {
+  const navRef = useRef();
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
     <>
       <header>
         <div className="conten-logo">
           <h1>DaniDev</h1>
         </div>
-        <nav>
-          <ul>
+        <nav ref={navRef}>
+          <ul className="nav-ul">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -21,11 +26,14 @@ export const NavBar = () => {
             <li>
               <Link to="/proyects">Projects</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
           </ul>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
         </nav>
+        <button className="nav-btn" onClick={showNavbar}>
+          <FaBars />
+        </button>
       </header>
     </>
   );
