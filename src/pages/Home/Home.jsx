@@ -13,18 +13,11 @@ function Home() {
           {/* presentation */}
           <div className="home-presentation">
             <div className="home-title">
-              <h1>
-                <TypeAnimation sequence={["Hi, I'm Dante Rodríguez"]} />
-              </h1>
+              <h1>Hi, I'm Dante Rodríguez</h1>
             </div>
             <div className="home-info">
               <p>
-                <TypeAnimation
-                  sequence={[
-                    "Apassionate Developer🚀 having an experience of building Web.",
-                  ]}
-                  speed={70}
-                />
+                Apassionate Developer🚀 having an experience of building Web.
               </p>
             </div>
             <div className="home-contacme">
