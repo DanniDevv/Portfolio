@@ -140,7 +140,7 @@
 }
 .card {
     color: var(--clr-neutral-100);
-    background-image: url(../../assets/img/ccip.png);
+    background-image: url(../../assets/img/img-about/ccip.png);
     background-size: cover;
     padding: 10rem 0 0;
     width: 50%;
@@ -249,7 +249,7 @@
 }
 
 /* responsive */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .content-general {
         flex-direction: column;
         align-items: center;

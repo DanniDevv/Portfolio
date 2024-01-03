@@ -12,3 +12,9 @@ Currently, two official plugins are available:
 ```
 npm install @mui/material @emotion/react @emotion/styled react-circular-progressbar
 ```
+```
+npm install framer-motion
+```
+
+
+https://developerfolio.js.org/#experience

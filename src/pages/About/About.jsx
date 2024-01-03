@@ -1,27 +1,31 @@
 import React from "react";
-import NavBar from "../../components/NavBar";
-import Footer from "../../components/Footer";
 import { Player } from "@lottiefiles/react-lottie-player";
-import "./about.css";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { SiAstro } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { FaNpm } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaNode,
+  FaNpm,
+  FaAngular,
+  FaPython,
+  FaDocker,
+  FaGithub,
+} from "react-icons/fa";
+import {
+  SiAstro,
+  SiTailwindcss,
+  SiJavascript,
+  SiPostman,
+  SiApachenetbeanside,
+} from "react-icons/si";
 import { DiDjango } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { GrAndroid } from "react-icons/gr";
-import { SiPostman } from "react-icons/si";
-import { SiApachenetbeanside } from "react-icons/si";
+import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
 import SkillBar from "../../components/ProgresBar/SkillBar";
-import tecsup from "../../assets/img/tecsup.png";
+import tecsup from "../../assets/img/img-about/tecsup.png";
+import "./about.css";
 function About() {
   return (
     <>
@@ -63,8 +67,8 @@ function About() {
             </h2>
             <p className="edu-date">August 2021 - March 2024</p>
             <p className="edu-inf">
-              Currently, I am immersed in the final semester of my studies,
-              diligently pursuing academic excellence.
+              I am currently immersed in the last semester of my studies,
+              seeking to improve my skills as a software developer.
             </p>
           </div>
         </div>

@@ -26,7 +26,6 @@ export const NavBar = () => {
             </li>
           </ul>
         </nav>
-        <FaBars />
       </header>
     </>
   );
